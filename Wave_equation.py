@@ -183,6 +183,7 @@ ax.set_title("Difference of the exact and PINN state")
 ax.set_xlabel("$x$")
 ax.set_ylabel("$t$")
 
+
 fig.colorbar(surf2, shrink=0.6, aspect=10)
 
 plt.show()
