@@ -26,7 +26,7 @@ def initial_pos(x):  # initial position
     return np.sin(np.pi * x[:, 0:1])
 
 
-def initial_velo(x):  # initial velocity
+def initial_velo(x):  # initial velocities
 
     return 0.0
 
