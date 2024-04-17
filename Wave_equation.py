@@ -13,7 +13,6 @@ OUTPUT_DIRECTORY = pathlib.Path.cwd() / "results" / "wave_equation"
 if not OUTPUT_DIRECTORY.exists():
     os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
 
-
 def pde(x, y):  # wave equation
     dy_tt = dde.grad.hessian(y, x, i=1, j=1)
     dy_xx = dde.grad.hessian(y, x, i=0, j=0)
